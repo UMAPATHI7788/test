@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+/backend/db.sqlite3
+/backend/media/
+/backend/staticfiles/
+/backend/tmp/
+
+# dotenv
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Node / React (for future frontend)
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+.npm
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS
+Thumbs.db
